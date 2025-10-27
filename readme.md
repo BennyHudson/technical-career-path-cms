@@ -1,3 +1,7 @@
+Wordpress CMS for Technical Career Path - Built from [wedo-headless-starter](https://github.com/BennyHudson/wedo-headless-starter) - use `wp server` to run locally.
+
+---
+
 # wedo-headless-starter
 
 A starter package for wedo.digital headless WordPress installs.
