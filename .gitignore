@@ -1,0 +1,61 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Sensitive files
+wp-config.php
+wp-config-sample.php
+
+# Log files and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# WordPress content folders (optional, if you don’t want to track uploads, plugins, themes)
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Composer dependencies
+/vendor/
+
+# Node dependencies
+/node_modules/
+
+# SFTP/FTP config files
+*.sublime-workspace
+*.sublime-project
+
+# Backup and temp files
+*.bak
+*.tmp
+*.swp
+*.zip
+*.tar.gz
+
+.htaccess
+readme.html
+wp-activate.php 
+wp-blog-header.php
+wp-comments-post.php
+license.txt
+index.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+!/wp-content/**/index.php
